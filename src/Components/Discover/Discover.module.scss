@@ -1,0 +1,30 @@
+.container{
+    height: 25rem;
+    width: 100;
+    display: flex;
+    justify-content: center;
+}
+.discover{
+    height: 23rem;
+    width: 80rem;
+    border: 1px solid #27272779;
+    &__text{
+        font-size: 1.3rem;
+    }
+    span{
+        background-size: 100%;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+        background-image: linear-gradient(45deg, #8739f9, #d75add);
+    }
+    h2, p{
+        margin: 4rem 0 0 6rem;
+        color: #FAFAFA;
+    }
+    p{
+        font-size: 1rem;
+        margin: 0 0 0 6rem;
+    }
+}

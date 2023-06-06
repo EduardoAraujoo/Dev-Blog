@@ -2,8 +2,23 @@ import styles from './Banner.module.scss'
 
 export default function Banner() {
   return (
-    <section className={styles.banner}>
-<div className={styles.banner__circle}></div>
-    </section>
+    <header className={styles.banner}>
+      <section className={styles.section}><h1>Dev Blog</h1></section>
+      
+      <article className={styles.article}>
+        <ul className={styles.article__ul}>
+          <li className={styles.article__li}>Home</li>
+          <li className={styles.article__li}>About me</li>
+          <li className={styles.article__li}>Posts</li>
+          <li className={styles.article__li}>Contact Me</li>
+        </ul>
+      </article >
+
+      <section className={styles.section}><div className={styles.section__circle}></div></section>
+
+    </header>
   )
 }
+
+ 
+
