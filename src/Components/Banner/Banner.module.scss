@@ -1,0 +1,18 @@
+
+
+.banner {
+    background-image: url('../../../images/black-marble.jpg');
+    height: 10rem;
+    width: 100;
+    display: flex;
+
+    &__circle {
+        border-radius: 50%;
+        background: transparent;
+        height: 10rem;
+        width: 10rem;
+        margin: 3rem 0 0 5rem;
+        background-image: url('https://github.com/EduardoAraujoo.png');
+        background-size: cover;
+    }
+}
