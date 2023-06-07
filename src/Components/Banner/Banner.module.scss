@@ -1,12 +1,12 @@
+$background-black: #100f10;
+$text-white: #fff;
 
 .banner {
-    background-color: #100f10;
+    background-color: $background-black;
     height: 8rem;
     width: 100;
     display: flex;
     align-items: center;
-
-
 }
 
 .article {
@@ -14,9 +14,11 @@
 
     &__ul {
         list-style: none;
-        color: #fff;
+        color: $text-white;
         display: flex;
         justify-content: center;
+        display: flex;
+        margin: auto;
     }
 
     &__li {
