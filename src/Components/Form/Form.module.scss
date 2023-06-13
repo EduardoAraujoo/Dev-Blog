@@ -1,29 +1,53 @@
 $inputBackground: #242424;
 $inputFontColor: #FAFAFA;
+$filters-color: #444444;
 
-.form{
-height: 10rem;
-margin-top: 2rem;
-display: flex;
+.form {
+    height: 10rem;
+    margin-top: 2rem;
+    display: flex;
 
-&__inputSearch{
-    background: $inputBackground;
-    border: 1px solid #000;
-    height: 2.5rem;
-    width: 25rem;
-    margin: 2rem 0 0 6rem;
-    border-radius: 2rem;
-    padding-left: 2rem;
-    color: $inputFontColor;
+    &__inputSearch {
+        background: $inputBackground;
+        border: 1px solid #000;
+        height: 2.5rem;
+        width: 25rem;
+        margin: 2rem 0 0 6rem;
+        border-radius: 2rem;
+        padding-left: 2rem;
+        color: $inputFontColor;
+    }
+
+    &__inputSearch:focus {
+        outline: 0;
+        box-shadow: 0 0 0 0;
+    }
+
+    &__filters {
+        margin-right: 4rem;
+        color: $filters-color;
+        list-style: none;
+        padding: 0.3rem 1rem;
+        border-radius: 1rem;
+    }
+
+    &__filters:hover {
+        background-color: #ff7b00;
+        transition: .3s;
+        cursor: pointer;
+        color: #fff;
+    }
 }
-&__input:focus{
-    outline: 0
+
+ul {
+    margin: 2.2rem 0 0 0;
+    display: flex;
+    flex-direction: row;
+    height: 2rem;
+    align-items: center;
 }
-}
-ul{
-    margin: 2.2rem 0 0 1.5rem;
-}
-.inputCheck{
+
+.inputCheck {
     height: 2rem;
     width: 4rem;
 }
