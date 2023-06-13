@@ -1,8 +1,9 @@
 [
     {
         "id": 1,
-        "filter": "JavaScript",
+        "filter": "Python",
         "title": "Python: Origem do nome",
-        "preview": "Durante o final dos anos 1980, enquanto ainda estava no CWI, ele começou a procurar por uma linguagem de script que tivesse sintaxe semelhante ao ABC, mas que tivesse acesso às chamadas de sistema do. Após procurar e não encontrar nenhuma linguagem que atendesse às suas necessidades."
+        "preview": "Durante o final dos anos 1980, enquanto ainda estava no CWI, ele começou a procurar por uma linguagem de script que tivesse sintaxe semelhante ao ABC, mas que tivesse acesso às chamadas de sistema do. Após procurar e não encontrar nenhuma linguagem que atendesse às suas necessidades.",
+        "image": "'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzAqY18oIV3mCxsHEwkxiqY38yqajTF5hmJQ&usqp=CAU'"
     }
 ]

@@ -5,7 +5,7 @@ export function DiscoverText() {
   return (
     <section className={styles.discover}>
                 <article className={styles.discover__text}>
-                    <h2>You can Dicover
+                    <h2>You can Discover
                         <span className={styles.discover__ColoredSpan}> Nice
                         </span>
                         <span className={styles.discover__ColoredSpan}> Articles
