@@ -1,6 +1,6 @@
 import styles from './ExpositionModel.module.scss';
 
-export default function ExpositionModel() {
+export default function ExpositionModel({title}) {
     return (
         <section className={styles.content}>
             <h4 className={styles.content__filter}>JavaScript</h4>
