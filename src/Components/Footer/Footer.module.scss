@@ -1,0 +1,25 @@
+$text-gradient1:#e41185;
+$text-gradient2:#ff7b00;
+
+.footer {
+    height: 7rem;
+    width: 100%;
+    background: #111111;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__article {
+        color: #FAFAFA;
+    }
+
+    &__span{
+        background-size: 100%;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+        background-image: linear-gradient(45deg, $text-gradient1, $text-gradient2);
+    }
+}

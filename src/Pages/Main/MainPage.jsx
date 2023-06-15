@@ -7,8 +7,7 @@ import Posts from '../../Components/Posts';
 export default function MainPage() {
     
     return (
-        <main>
-            <Banner />
+        <main>  
             <Discover />
             <Articles />
             <Posts />

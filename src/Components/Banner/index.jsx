@@ -1,3 +1,4 @@
+import LinkMain from '../LinkMain'
 import styles from './Banner.module.scss'
 
 export default function Banner() {
@@ -8,7 +9,11 @@ export default function Banner() {
       <article className={styles.article}>
         <ul className={styles.article__ul}>
           <li className={styles.article__li}>Home</li>
-          <li className={styles.article__li}>About me</li>
+          <li className={styles.article__li}>
+            <LinkMain className={styles.article__li} to="/aboutme">
+            About me
+            </LinkMain>
+            </li>
           <li className={styles.article__li}>Posts</li>
           <li className={styles.article__li}>Contact Me</li>
         </ul>
