@@ -14,22 +14,12 @@ $text-gradient2:#ff7b00;
 .article {
     width: 892px;
 
-    &__ul {
-        list-style: none;
-        color: $text-white;
+    &__nav {
         display: flex;
-        justify-content: center;
-        display: flex;
+        justify-content: space-around;
         margin: auto;
+        color: $text-white;
     }
-
-    &__li {
-        flex-direction: row;
-        margin: 0 2.7rem 0 2.7rem;
-        font-size: 1rem;
-        border-radius: 1.5rem;
-    }
-
 }
 
 .section {
