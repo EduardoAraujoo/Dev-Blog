@@ -4,7 +4,10 @@ import styles from './ExpositionModel.module.scss';
 
 export default function ExpositionModel({ exposition }) {
     return (
-        <section className={styles.content}>
+        <section
+            className={styles.content}
+            key={exposition.id}
+        >
             <h4 className={styles.content__filter}>
                 {exposition.filter}
             </h4>

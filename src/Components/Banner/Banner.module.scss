@@ -11,16 +11,18 @@ $text-gradient2:#ff7b00;
     align-items: center;
 }
 
-.article {
-    width: 892px;
 
-    &__nav {
+
+    .nav {
         display: flex;
-        justify-content: space-around;
-        margin: auto;
+        width: 38rem;
+        height: 8rem;
+        justify-content: space-between;
         color: $text-white;
+        font-size: 1.2rem;
+        text-decoration: none;
     }
-}
+
 
 .section {
     height: 7rem;

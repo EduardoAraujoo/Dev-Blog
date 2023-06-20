@@ -1,9 +1,13 @@
+
+
+
 .main {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     width: 80%;
     margin: auto;
+    
 }
 
 .post {
@@ -16,6 +20,8 @@
     background-color: #141414;
     border: 1px solid #3838385d;
     border-radius: 1.5rem;
+    
+    
 
     &__image {
         width: 15rem;
@@ -34,12 +40,14 @@
         justify-content: left;
         text-align: start;
         flex-direction: column;
+        
     }
 
     &__title {
         margin: .5rem;
         color: #e2e2e2;
         font-size: 1rem;
+        text-decoration: none;
     }
 
     &__preview {
@@ -70,3 +78,7 @@
         margin: 0.2rem;
     }
 }
+
+a:visited, a:focus, a:active
+{text-decoration: none; 
+color: inherit;}

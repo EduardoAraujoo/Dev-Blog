@@ -14,8 +14,10 @@ export default function Articles() {
                     style={{
                         backgroundImage:
                             `url(${exposition.image})`
-                    }}>
-                    <ExpositionModel key={exposition.id} exposition={exposition} />
+
+                    }}
+                    key={exposition.id}>
+                    <ExpositionModel exposition={exposition} />
                 </section>
             )}
 
