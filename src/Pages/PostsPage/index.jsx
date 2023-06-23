@@ -13,6 +13,7 @@ export default function PostsPage() {
     console.log(thisPost);
 
     return (
+        <main className='post-main-image'>
         <div className='post'>
             <section className='section'>
                 <h1 className='post-title'>
@@ -26,7 +27,7 @@ export default function PostsPage() {
                     {thisPost.texto}
                 </ReactMarkdown>
         </div>
-
+</main>
 
     )
 }
