@@ -1,5 +1,5 @@
-$text-gradient1:#e41185;
-$text-gradient2:#ff7b00;
+$text-gradient1: #e41185;
+$text-gradient2: #ff7b00;
 
 .footer {
     height: 7rem;
@@ -9,12 +9,15 @@ $text-gradient2:#ff7b00;
     display: flex;
     justify-content: center;
     align-items: center;
+    bottom: 0;
+    position: relative;
+    margin-top: 5rem;
 
     &__article {
         color: #FAFAFA;
     }
 
-    &__span{
+    &__span {
         background-size: 100%;
         -webkit-background-clip: text;
         background-clip: text;

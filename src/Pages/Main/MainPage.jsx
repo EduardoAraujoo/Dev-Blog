@@ -10,7 +10,7 @@ export default function MainPage() {
         <main>  
             <Discover />
             <Articles />
-            <Posts />
+            <Posts/>
         </main>
     )
 }
