@@ -6,6 +6,7 @@ $filters-color: #444444;
     height: 10rem;
     margin-top: 2rem;
     display: flex;
+    justify-content: center;
 
     &__inputSearch {
         background: $inputBackground;
@@ -31,12 +32,6 @@ $filters-color: #444444;
         border-radius: 1rem;
     }
 
-    &__filters:hover {
-        background-color: #ff7b00;
-        transition: .3s;
-        cursor: pointer;
-        color: #fff;
-    }
 }
 
 ul {

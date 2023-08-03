@@ -14,20 +14,20 @@ export default function PostsPage() {
 
     return (
         <main className='post-main-image'>
-        <div className='post'>
-            <section className='section'>
-                <h1 className='post-title'>
-                    {thisPost.title}
-                </h1>
-                <p className='post-date'>
-                    {`(${thisPost.date})`}
-                </p>
-            </section>
+            <div className='post'>
+                <section className='section'>
+                    <h1 className='post-title'>
+                        {thisPost.title}
+                    </h1>
+                    <p className='post-date'>
+                        {`(${thisPost.date})`}
+                    </p>
+                </section>
                 <ReactMarkdown className="post-text">
                     {thisPost.texto}
                 </ReactMarkdown>
-        </div>
-</main>
+            </div>
+        </main>
 
     )
 }

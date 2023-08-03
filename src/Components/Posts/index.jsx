@@ -3,15 +3,12 @@ import posts from '../../json/posts.json'
 import { Link } from 'react-router-dom'
 
 export default function Posts() {
-    
-
-
-
 
     return (
         <main className={styles.main}>
             {posts.map(post => (                  
-                       <Link to={`posts/${post.id}`} 
+                       <Link
+                       to={`posts/${post.id}`} 
                        key={post.id}>
                        <section className={styles.post}
                        >

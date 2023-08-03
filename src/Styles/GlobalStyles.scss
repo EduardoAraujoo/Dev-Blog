@@ -10,6 +10,9 @@ body {
   background-image: url('../../images/polygon-scatter-haikei.png');
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  text-decoration: none; 
+  color: inherit;
+  text-decoration: transparent;
 }
 
 ::-webkit-scrollbar {

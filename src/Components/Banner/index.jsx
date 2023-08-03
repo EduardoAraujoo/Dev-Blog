@@ -18,10 +18,6 @@ export default function Banner() {
         </LinkMain>
 
         <LinkMain>
-          Posts
-        </LinkMain>
-
-        <LinkMain>
           Contact Me
         </LinkMain>
 

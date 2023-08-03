@@ -1,3 +1,4 @@
+import AllPosts from "./Components/AllPosts/AllPosts";
 import Banner from "./Components/Banner";
 import Footer from "./Components/Footer";
 import AboutMe from "./Pages/AboutMe";
@@ -13,8 +14,8 @@ function App() {
       <Routes>
         <Route path="/" element={<MainPage />} /> 
         <Route path="/aboutme" element={<AboutMe />} />
-        <Route path="posts/:id" element={<PostsPage />} />
-
+        <Route path={"posts/:id" || `posts/posts/:id`}  element={<PostsPage />} />
+        <Route path="/posts" element={<AllPosts/>} />
       </Routes>
       <Footer />
     </BrowserRouter>
